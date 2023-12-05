@@ -36,5 +36,5 @@ reg = r'^([0-9]{3})(\-)([0-9]{3})(\-)([0-9]{3})(\s)([0-9]{2})$'
 
 for string in test_string:
     match = re.search(reg, string)
-    print(f"{s} : {check(match)}")
+    print(f"{string} : {check(match)}")
     print("-----------------------------------------------------")
